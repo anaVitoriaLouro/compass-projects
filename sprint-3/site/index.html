@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <title>Validor de dados rodando em instância remota na AWS</title>
+</head>
+<body>
+  <nav class="navbar" style="margin-bottom: 40px">
+    <div class="container">
+      <h3 class="title" style="font-weight: bold; text-align: center;">Validador de Dados</h3>
+      <a class="navbar-brand" href="#">
+        <img src="assets/compasso-uol-256.png" alt="Logotipo Compass.uol" height="40" class="d-inline-block align-text-right">
+      </a>
+    </div>
+  </nav>
+  <div class="container mt-4 main" style="margin-bottom: 100px">
+      <form class="form-group g-3 formulario" novalidate>
+        <div class="col-md-6 m-auto">
+          <label for="nome" class="form-label">Nome:</label>
+          <input type="text" class="form-control" id="name" name="nome" required>
+          <h6 class="mt-2" id='result_name'></h6>
+        </div>
+        <div class="col-md-6 m-auto">
+          <label for="email" class="form-label">Email:</label>
+          <input type="text" class="form-control" id="email" required>
+            <h6 class="mt-2" id='result_email'></h6>
+          </div>
+        <div class="col-md-6 m-auto">
+          <label for="telefone" class="form-label">Telefone:</label>
+          <input type="text" class="form-control" id="numero" required>
+            <h6 class="mt-2" id='result_numero'></h6>
+        </div>
+        <div class="col-12 mt-4">
+          <button class="btn btn-primary d-flex m-auto" type="submit" id="botao_submit">Validar meus dados</button>
+        </div>
+      </form>
+  </div>
+  <div class="container" style="margin-bottom: 20px">
+    <div class="row">
+      <div class="col">
+        <nav class="navbar">
+          <h4 class="title" style="font-weight: bold">
+            <strong><em style="font-style: italic;">Sprint-2</em>:</strong> Validador de dados rodando em nuvem na porta 9000
+          </h4>
+        </nav>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <h5 style="font-weight: bold">Grupo-4:</h5>
+        <ul>
+          <li>Ana Vitoria Louro</li>
+          <li>Bruno Monserat Pirillo</li>
+          <li>Diego Lopes da Silva</li>
+          <li>Kelly Patrícia Lopes Silva</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <nav class="navbar">
+    <div class="container">
+      <h6 class="title" style="font-weight: bold">
+        <a href="https://github.com/Compass-pb-aws-2023-Univesp/sprint-2-pb-aws-univesp/blob/grupo-4/files/AWS.pdf">Instruções para criação da VPC e da instância pelo console da AWS</a>
+      </h6>
+    </div>
+  </nav>
+  <nav class="navbar">
+    <div class="container">
+      <h6 class="title" style="font-weight: bold">
+        <a href="https://github.com/Compass-pb-aws-2023-Univesp/sprint-2-pb-aws-univesp/blob/grupo-4/files/instalar_nginx.sh">Instalação do nginx e configuração do servidor na porta 9000</a>
+      </h6>
+    </div>
+  </nav>
+  
+  <script src="src/scripts.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</body>
+</html>

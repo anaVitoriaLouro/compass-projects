@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Grupo 4 - Sprint 4</title>
+
+    <style>
+        /* RESET */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* GERAL */
+        body {
+            background-color: #242940;
+            color: #FFF;
+        }
+
+        #main-title {
+            padding: 40px 0;
+            text-align: center;
+            background-color: #2D425A;
+            border-bottom-left-radius: 50px;
+        }
+
+        /* MAIN CONTAINER */
+        #main-container {
+            width: 500px;
+            margin: 50px auto;
+            border: 1px solid #CDDDE8;
+            padding: 25px;
+            border-radius: 25px;
+        }
+
+        #sub-title {
+            text-align: center;
+            margin-bottom: 25px;
+            font-size: 20px;
+        }
+
+        /* INPUT CONTAINER */
+        #input-container {
+            display: flex;
+            align-items: center;
+            margin: 40px 90px;
+            width: 300px;
+            height: 50px;
+        }
+
+        .search-inpt {
+            border-radius: 25px;
+            background-color: #CDDDE8;
+            border: 2px solid transparent;
+            text-align: left;
+            padding: 10px 50px 10px 50px;
+            color: #000;
+        }
+
+        /* BUTTON CONTAINER */
+        #btn-container button {
+            display: flex;
+            align-items: center;
+            margin: 15px 76px;
+            width: 300px;
+            height: 50px;
+            border-radius: 25px;
+            background-color: #CDDDE8;
+            border: 2px solid transparent;
+            text-align: left;
+            padding-left: 5px;
+            color: #000;
+            cursor: pointer;
+            transition: .5s;
+        }
+
+        #btn-hover:hover {
+            background-color: #E78230;
+            color: #FFF;
+        }
+
+        .btn-text {
+            flex: 1 1 0;
+            margin-left: 105px;
+            font-size: 16px;
+        }
+
+        /* MOBILE */
+        @media(max-width: 450px) {
+
+            #quizz-container {
+                border: none;
+                width: 100%;
+            }
+
+            #answers-box button {
+                width: 100%;
+            }
+
+            #score-container {
+                width: 90%;
+            }
+        }
+
+        #result-container {
+            margin: 50px auto;
+            padding: 25px;
+            border-radius: 25px;
+            border: 1px solid #CDDDE8;
+            background-color: #2D425A;
+            text-align: center;
+            display: none;
+        }
+
+        #result-container {
+            color: red;
+            max-width: fit-content;
+            margin: 50px auto;
+            padding: 25px;
+            border-radius: 25px;
+            border: 1px solid #CDDDE8;
+            background-color: #2D425A;
+            text-align: center;
+            display: none;
+        }
+
+        #result-container h2 {
+            color: #FFF;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        #result-container p {
+            color: #FFF;
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <h1 id="main-title">Pesquisa de Localização</h1>
+
+    <!-- MAIN CONTAINER -->
+    <div id="main-container">
+        <p id="sub-title">
+            Insira o nome do local desejado:
+        </p>
+
+        <!-- INPUT CONTAINER -->
+        <div id="input-container">
+            <label for="User"></label>
+            <input type="text" id="User" class="search-inpt" name="Name" />
+        </div>
+
+        <!-- BUTTON CONTAINER -->
+        <div id="btn-container">
+            <button id="btn-hover"><span class="btn-text">Pesquisar</span></button>
+        </div>
+    </div>
+
+    <div id="result-container">
+        <h2>Resultados:</h2>
+        <p id="localidade"></p>
+        <p id="endereco"></p>
+        <p id="latitude"></p>
+        <p id="longitude"></p>
+    </div>
+   
+
+    <!-- SCRIPT SECTION -->
+    <script>
+    document.getElementById("btn-hover").addEventListener("click", function() {
+        const localidade = document.getElementById("User").value;
+
+        // Faz uma requisição HTTP para a API Lambda passando o valor da localidade
+        const xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                // Exibe a resposta da API na console do navegador
+                console.log(this.responseText);
+
+                // Obter o elemento que contém o resultado
+                const resultContainer = document.getElementById("result-container");
+
+                // Exibir as informações na página HTML
+                const response = JSON.parse(this.responseText);
+                document.getElementById("localidade").textContent = "Localidade: " + response.localidade;
+                document.getElementById("endereco").textContent = "Endereço: " + response.endereco;
+                document.getElementById("latitude").textContent = "Latitude: " + response.latitude;
+                document.getElementById("longitude").textContent = "Longitude: " + response.longitude;
+
+                // Mostrar o contêiner de resultados
+                resultContainer.style.display = "block";
+            }
+        };
+        xhttp.open("GET", "https://h9tt9tr96l.execute-api.us-east-1.amazonaws.com/dev/?localidade=" + localidade, true);
+        xhttp.send();
+    });
+
+    </script>
+</body>
+
+</html>

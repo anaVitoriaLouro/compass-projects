@@ -1,0 +1,73 @@
+/* Define the default style for the document body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F2F2F2;
+}
+
+/* Define the style for the header */
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Define the style for the main container */
+#app {
+    width: 500px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    border-radius: 5px;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+/* Define the style for the file selection container */
+#app input[type="file"] {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    background-color: #F2F2F2;
+    border-radius: 5px;
+}
+
+/* Define the style for the selected audio container */
+#app audio {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+/* Define the style for the buttons */
+#app button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #4286f4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Define the style for the upload button */
+#app button:nth-child(2) {
+    margin-left: 20px;
+    background-color: #57BF36;
+}
+
+/* Define the style for the success message */
+#app h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+}

@@ -1,0 +1,11 @@
+version = 0.1
+[default.deploy.parameters]
+stack_name = "Projeto-sprint-06"
+resolve_s3 = true
+s3_prefix = "Projeto-sprint-06"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+disable_rollback = true
+parameter_overrides = "ElasticsearchDomainName=\"voicept\" SourceAudioLanguage=\"pt-BR\""
+image_repositories = []

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+
+  <title>Validação de Dados | Avaliação 1</title>
+
+</head>
+
+<body>
+  <main class="container">
+    <div class="cartao">
+      <div class="cartao-conteudo">
+        <h1 class="titulo">Bem Vindo!</h1>
+
+        <p class="descricao">Insira seus dados para validação</p>
+
+
+        <form id="formulario" autocomplete="off">
+          <fieldset>
+
+            <label>Nome:</label>
+            <input class="campo_nome" type="text" id="nome" onblur="validarNome()" minlength="2" placeholder="Nome Completo"><br><br>
+            <p id="erroNome" class="mensagem"></p>
+
+            <label>Email:</label>
+            <input class="campo_email" type="email" id="email" onblur="validarEmail()" 
+              placeholder="seuemail@dominio.com.br" style="text-transform: lowercase;">
+            <br><br>
+            <p id="erroEmail" class="mensagem"></p>
+
+            <label for="phone">Fone:</label>
+            <input class="campo_telefone" type="tel" id="telefone" onblur="validarTelefone()" 
+              placeholder="(NN)NNNN-NNNN" maxlength="13">
+            <br><br>
+            <p id="erroTelefone" class="mensagem"></p>
+
+            <button type="button" class="botao" id="botao-submit" disabled>Enviar</button>
+
+            <p id="mensagem" class="mensagem"></p>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <script src="src/script.js"></script>
+</body>
+
+</html>

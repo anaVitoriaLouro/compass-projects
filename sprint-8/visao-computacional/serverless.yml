@@ -1,0 +1,72 @@
+service: vision
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: python3.9
+  region: us-east-1
+  httpApi:
+    cors: true
+  # The below creates the necessary permissions to access S3, Rekognition, and ApiGateway actions
+  iam:
+    role:
+      statements:
+        - Effect: "Allow"
+          Action:
+            - "s3:GetObject"
+          Resource: "*"
+        - Effect: "Allow"
+          Action:
+          - "rekognition:DetectFaces"
+          - "rekognition:DetectLabels"
+          Resource: "*"
+        - Effect: "Allow"
+          Action: 
+            - "execute-api:*"
+          Resource: "*"
+
+# This creates a public S3 bucket from the deploy
+resources:
+  Resources:
+    MyS3Bucket:
+      Type: AWS::S3::Bucket
+      Properties:
+        BucketName: sprint-8-vision
+        PublicAccessBlockConfiguration:
+          BlockPublicAcls: false
+        OwnershipControls:
+          Rules:
+            - ObjectOwnership: ObjectWriter
+
+# This creates all five routes of the project
+functions:
+  health:
+    handler: handler.health
+    events:
+      - httpApi:
+          path: /
+          method: get
+  v1Description:
+    handler: handler.v1_description
+    events:
+      - httpApi:
+          path: /v1
+          method: get
+  v2Description:
+    handler: handler.v2_description
+    events:
+      - httpApi:
+          path: /v2
+          method: get
+  v1LabelFunction:
+    handler: handler.v1Label
+    events:
+      - httpApi:
+          path: /v1/vision
+          method: post
+  v2EmotionFunction:
+    handler: handler.v2Emotion
+    events:
+      - httpApi:
+          path: /v2/vision
+          method: post

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Projeto Sprint 6</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/vue@1.0.28/dist/vue.js"></script>
+    <script src="https://unpkg.com/axios@0.2.1/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <h1>S3 Uploader Test</h1>
+
+        <!-- Check if audio file is not selected -->
+        <div v-if="!audio">
+            <h2>Select an audio file</h2>
+
+            <!-- Create an input field to select audio file -->
+            <input type="file" @change="onFileChange" accept="audio/mpeg">
+        </div>
+
+        <!-- Otherwise, display the selected audio file and buttons to remove or upload it -->
+        <div v-else>
+            <audio :src="audio" controls></audio>
+            <button v-if="!uploadURL" @click="removeAudio">Remove audio</button>
+            <button v-if="!uploadURL" @click="uploadAudio">Upload audio</button>
+        </div>
+
+        <!-- Display success message if upload was successful -->
+        <h2 v-if="uploadURL">Success! Audio uploaded to bucket.</h2>
+    </div>
+
+    <script>
+
+        // Define o tamanho máximo do arquivo de áudio
+        const MAX_AUDIO_SIZE = 1000000
+
+        /* INSERT API ENDPOINT HERE */
+        const API_ENDPOINT = 'https://kkqd7xmra3.execute-api.us-east-1.amazonaws.com/uploads'
+
+        new Vue({
+            el: "#app",
+            data: {
+                audio: '',  // Initialize an empty string for the audio file
+                uploadURL: '' // Initialize an empty string for the upload URL of the audio file
+            },
+            methods: {
+                // Function executed when an audio file is selected
+                onFileChange(e) {
+                    let files = e.target.files || e.dataTransfer.files
+                    if (!files.length) return
+                    this.createAudio(files[0])
+                },
+                // Convert the audio file to a base64 URL to be displayed on the page
+                createAudio(file) {
+                    let reader = new FileReader()
+                    reader.onload = (e) => {
+                        console.log('length: ', e.target.result.includes('data:audio/mpeg'))
+                        if (!e.target.result.includes('data:audio/mpeg')) { // Check if the selected file is of type mp3
+                            return alert('Wrong file type - MP3 only.')
+                        }
+                        if (e.target.result.length > MAX_AUDIO_SIZE) { // Check if the selected file does not exceed the maximum allowed size
+                            return alert('Audio is too large.')
+                        }
+                        this.audio = e.target.result
+                    }
+                    reader.readAsDataURL(file)
+                },
+                // Remove the audio file from the page
+                removeAudio: function (e) {
+                    console.log('Remove clicked')
+                    this.audio = ''
+                },
+                // Upload the audio file to the specified endpoint
+                uploadAudio: async function (e) {
+                    console.log('Upload clicked')
+                    // Get the signed URL for uploading the file
+                    const response = await axios({
+                        method: 'GET',
+                        url: API_ENDPOINT
+                    })
+                    console.log('Response: ', response)
+                    console.log('Uploading: ', this.audio)
+                    let binary = atob(this.audio.split(',')[1])
+                    let array = []
+                    for (var i = 0; i < binary.length; i++) {
+                        array.push(binary.charCodeAt(i))
+                    }
+                    let blobData = new Blob([new Uint8Array(array)], { type: 'audio/mpeg' }) // Create a Blob with the audio file
+                    console.log('Uploading to: ', response.uploadURL)
+                    const result = await fetch(response.uploadURL, { // Make the PUT request to the signed URL with the audio file
+                        method: 'PUT',
+                        body: blobData
+                    })
+                    console.log('Result: ', result)
+                    // The final URL for the user does not need the query string parameters
+                    this.uploadURL = response.uploadURL.split('?')[0]
+                }
+            }
+        })
+    </script>
+
+</body>
+
+</html>
