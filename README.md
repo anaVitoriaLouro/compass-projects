@@ -5,20 +5,20 @@ Bem-vindo ao repositório de projetos da Compass.uol! Aqui você encontrará uma
 ## 📌 Navegação
 
 - [📝 Sobre a Compass.uol](#introdução)
-- [🎯 Estrutura do Repositório](#objetivos)
-    - []
-    - []
-    - []
-    - []
-    - []
-    - []
-    - []
-    - []
-    - []
+- [📁 Estrutura do Repositório](#estrutura-do-repositorio)
+    - [Sprint 1]()
+    - [Sprint 2]()
+    - [Sprint 3]()
+    - [Sprint 4]()
+    - [Sprint 5]()
+    - [Sprint 6]()
+    - [Sprint 7]()
+    - [Sprint 8]()
+    - [Sprint 9]()
 - [💻 Desenvolvimento](#desenvolvimento)
-  - [🔧 Como funciona o programa?](#requisitos)
+  - [🚀 Dinâmica do programa](#como-funciona-o-programa)
   - [🔧 Ferramentas e tecnologias utilizadas](#ferramentas-e-tecnologias-utilizadas)
-- [📏 Execução](#execução)
+  - [👩🏻‍💻 Execução](#execução)
 - [✅ Conclusão](#conclusão)
 - [👥 Desenvolvedores](#equipe)
 
@@ -26,6 +26,14 @@ Bem-vindo ao repositório de projetos da Compass.uol! Aqui você encontrará uma
 ## Sobre a Compass.uol
 
 ## Estrutura do Repositório
+
+## Desenvolvimento
+
+### Dinâmica do programa
+
+### Ferramentas e tecnologias utilizadas
+
+### Execução
 
 ## Desenvolvedores
 
