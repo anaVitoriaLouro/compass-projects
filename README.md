@@ -20,8 +20,8 @@ Este repositório tem como objetivo centralizar afim de compartilhar e armazenar
     - [Sprint 9]()
 - [💻 Desenvolvimento](#desenvolvimento)
   - [🚀 Dinâmica do programa](#como-funciona-o-programa)
+  - - [👩🏻‍💻 Execução](#execução)
   - [🔧 Ferramentas e tecnologias utilizadas](#ferramentas-e-tecnologias-utilizadas)
-  - [👩🏻‍💻 Execução](#execução)
 - [✅ Conclusão](#conclusão)
 - [👥 Equipe](#equipe)
   - [👩🏻‍🎓 Desenvolvedores](#desenvolvedores)
@@ -47,9 +47,14 @@ Dentro de cada pasta tem todos os arquivos produzidos durante os desenvolvimento
 
 ### Dinâmica do programa
 
-### Ferramentas e tecnologias utilizada
+Durante o percurso do Programa, afim de simular o dia a dia dos profissionais da área de tecnologia, foi utilizado o método Scrum que se trata de um framework ágil usado para gerenciar projetos complexos de desenvolvimento de software e outras iniciativas.  
+Ele se baseia em uma abordagem iterativa e incremental, em que o trabalho é dividido em pequenas partes chamadas de "sprints". Cada sprint é um período de tempo definido, geralmente de uma a quatro semanas, durante o qual uma parte funcional do produto é desenvolvida.
 
 ### Execução
+
+O Programa de bolsas teve duração de 5 - 6 meses, cada sprint tinha uma duração de duas semanas onde: a primeira semana tinha o foco em utilizar a plataforma da Udemy para adquirir conhecimentos nescessários para a produção do projeto que se dava durante a segunda semana das sprints.
+
+### Ferramentas e tecnologias utilizada
 
 ## Equipe
 
