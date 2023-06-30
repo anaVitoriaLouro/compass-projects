@@ -1,6 +1,9 @@
 # Repositório de Projetos da Compass.uol
 
-Bem-vindo ao repositório de projetos da Compass.uol! Aqui você encontrará uma variedade de projetos desenvolvidos durante o programa de bolsas da Compass.uol. Este repositório serve como um espaço central para compartilhar e armazenar os resultados do trabalho realizado por bolsistas da turma de Machine Learning com AWS.
+Bem-vindo ao repositório de projetos do Programa de Bolsas de Machine Learning com AWS do qual participei e que pode ser realizado através de uma parceria entre a UNIVESP e a Compass.uol! 
+Este repositório tem como objetivo centralizar afim de compartilhar e armazenar os resultados do trabalho realizado pelas equipes de bolsistas nas quais participei.
+
+* Por se tratarem de projetos desenvolvidos em ambiente da Cloud AWS, alguns podem ser que não estejam em pleno funcionamento, uma vez que as contas fornecidas pela Compass são apagadas após o fim do programa. *
 
 ## 📌 Navegação
 
@@ -20,22 +23,39 @@ Bem-vindo ao repositório de projetos da Compass.uol! Aqui você encontrará uma
   - [🔧 Ferramentas e tecnologias utilizadas](#ferramentas-e-tecnologias-utilizadas)
   - [👩🏻‍💻 Execução](#execução)
 - [✅ Conclusão](#conclusão)
-- [👥 Desenvolvedores](#equipe)
+- [👥 Equipe](#equipe)
+  - [👩🏻‍🎓 Desenvolvedores](#desenvolvedores)
+  - [👨🏻‍🏫 Instrutores](#instrutores)
 
 
 ## Sobre a Compass.uol
 
 ## Estrutura do Repositório
 
+Neste repositório exitem um total de 10 arquivos: 
+- 9 pastas com os projetos realizados ao final de cada Sprint;
+- 1 README com o detalhamento do programa;
+
+Dentro de cada pasta tem todos os arquivos produzidos durante os desenvolvimentos, podendo incluir:
+- README.md - contendo mais detalhes sobre o projeto;
+- Pasta src - com os códigos; 
+- Pasta assets - com imagens e documentações;
+- .gitingore;
+- etc;
+
 ## Desenvolvimento
 
 ### Dinâmica do programa
 
-### Ferramentas e tecnologias utilizadas
+### Ferramentas e tecnologias utilizada
 
 ### Execução
 
-## Desenvolvedores
+## Equipe
+
+### Desenvolvedores
+
+### Instrutores
 
 ## Licença
 
