@@ -76,6 +76,13 @@ Durante as Sprints 9 e 10 foram desenvolvidos os projetos finais, utilizando tod
 
 ### Desenvolvedores
 
+<div align="center">
+
+  [https://avatars.githubusercontent.com/u/125395133?v=4](https://github.com/Adila02) | [<img src="https://avatars.githubusercontent.com/u/97908745?v=4" width=115><br><sub>Ana Vitória</sub>](https://github.com/anaVitoriaLouro) | [https://avatars.githubusercontent.com/u/112827096?v=4](https://github.com/Barbarahayd) | [https://avatars.githubusercontent.com/u/81330043?v=4](https://github.com/belima93) | [https://avatars.githubusercontent.com/u/25699466?v=4](https://github.com/brunoperillo) | [https://avatars.githubusercontent.com/u/78061851?v=4](https://github.com/crobertocamilo) | [https://avatars.githubusercontent.com/u/96358027?v=4](https://github.com/Diegox0301) | [https://avatars.githubusercontent.com/u/55400549?v=4](https://github.com/guilhermep77) | [https://avatars.githubusercontent.com/u/124359272?v=4](https://github.com/IratiMaffra) | [https://avatars.githubusercontent.com/u/88354075?v=4](https://github.com/KellyPLSilva) | [<img src="https://avatars.githubusercontent.com/u/87142990?v=4" width=115><br><sub>Luciene Godoy</sub>](https://github.com/LucieneGodoy) |  [<img src="https://avatars.githubusercontent.com/u/72028902?v=4" width=115><br><sub>Luiz Sassi</sub>](https://github.com/luizrsassi) | [https://avatars.githubusercontent.com/u/95102771?v=4](https://github.com/Marcos-Zaparoli) | [https://avatars.githubusercontent.com/u/35769020?v=4](https://github.com/ml-brunelli) | [https://avatars.githubusercontent.com/u/94749597?v=4](https://github.com/odharamaggi) | [<img src="https://avatars.githubusercontent.com/u/73674662?v=4" width=115><br><sub>Marcos Vinicios</sub>](https://github.com/onativo) | [https://avatars.githubusercontent.com/u/97359269?v=4](https://github.com/OseasMonteiro) | [https://avatars.githubusercontent.com/u/117780664?v=4](https://github.com/Vivianes86)|
+  | :---: | :---: | :---: |:---: |
+
+</div>
+
 ### Instrutores
 
 ## Licença
