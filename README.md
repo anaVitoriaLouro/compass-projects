@@ -9,18 +9,9 @@ Este repositório tem como objetivo centralizar todos os projetos desenvolvidos 
 
 - [📝 Sobre a Compass.uol](#introdução)
 - [📁 Estrutura do Repositório](#estrutura-do-repositorio)
-    - [Sprint 1]()
-    - [Sprint 2]()
-    - [Sprint 3]()
-    - [Sprint 4]()
-    - [Sprint 5]()
-    - [Sprint 6]()
-    - [Sprint 7]()
-    - [Sprint 8]()
-    - [Sprint 9]()
 - [💻 Desenvolvimento](#desenvolvimento)
   - [🚀 Dinâmica do programa](#como-funciona-o-programa)
-  - - [👩🏻‍💻 Execução](#execução)
+  - [👩🏻‍💻 Execução](#execução)
   - [🔧 Ferramentas e tecnologias utilizadas](#ferramentas-e-tecnologias-utilizadas)
 - [✅ Conclusão](#conclusão)
 - [👥 Equipe](#equipe)
@@ -80,6 +71,9 @@ Durante as Sprints 9 e 10 foram desenvolvidos os projetos finais, utilizando tod
 - [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript);
 - [Python](https://docs.python.org/3/);
 - [Tensorflow](https://www.tensorflow.org/api_docs);
+
+## Conclusão
+
 
 ## Equipe
 
