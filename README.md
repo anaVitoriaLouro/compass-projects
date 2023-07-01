@@ -1,7 +1,7 @@
-# Repositório de Projetos da Compass.uol
+# Repositório de Projetos do Programa de Bolsas de Machine Learning com AWS
 
 Bem-vindo ao repositório de projetos do Programa de Bolsas de Machine Learning com AWS do qual participei e que pôde ser realizado através de uma parceria entre a UNIVESP e a Compass.uol! 
-Este repositório tem como objetivo centralizar todos os projetos realizados durante o período afim de compartilhar e armazenar os resultados do trabalho realizado pelas equipes de bolsistas nas quais participei.
+Este repositório tem como objetivo centralizar todos os projetos desenvolvidos durante o programa, permitindo o compartilhamento e armazenamento dos resultados do trabalho realizado pelas equipes de bolsistas nas quais tive participação.
 
 * Por se tratarem de projetos desenvolvidos em ambiente da Cloud AWS, alguns podem ser que não estejam em pleno funcionamento, uma vez que as contas fornecidas pela Compass são apagadas após o fim do programa. *
 
@@ -32,13 +32,13 @@ Este repositório tem como objetivo centralizar todos os projetos realizados dur
 
 ## Estrutura do Repositório
 
-Neste repositório exitem um total de 10 itens: 
+Neste repositório, você encontrará um total de 10 itens, sendo eles: 
 - 9 pastas com os projetos realizados ao final de cada Sprint;
-- 1 README com o detalhamento do programa;
+- 1 arquivo README com o detalhes sobre o programa;
 
-Dentro de cada pasta tem todos os arquivos produzidos durante os desenvolvimentos, podendo incluir:
+Cada pasta contém os arquivos produzidos durante o desenvolvimento, podendo incluir:
 - README.md - contendo mais detalhes sobre o projeto;
-- Pasta src - com os códigos utilizados no desenvolvimento; 
+- Pasta src - com os códigos utilizados ; 
 - Pasta assets - com imagens e documentações;
 - etc;
 
