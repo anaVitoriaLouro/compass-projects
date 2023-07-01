@@ -38,9 +38,8 @@ Neste repositório exitem um total de 10 itens:
 
 Dentro de cada pasta tem todos os arquivos produzidos durante os desenvolvimentos, podendo incluir:
 - README.md - contendo mais detalhes sobre o projeto;
-- Pasta src - com os códigos; 
+- Pasta src - com os códigos utilizados no desenvolvimento; 
 - Pasta assets - com imagens e documentações;
-- .gitingore;
 - etc;
 
 ## Desenvolvimento
