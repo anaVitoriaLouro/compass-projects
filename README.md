@@ -30,6 +30,8 @@ Este repositório tem como objetivo centralizar todos os projetos desenvolvidos 
 
 ## Sobre a Compass.uol
 
+:construction:
+
 ## Estrutura do Repositório
 
 Neste repositório, você encontrará um total de 10 itens, sendo eles: 
@@ -65,6 +67,7 @@ Durante as Sprints 9 e 10 foram desenvolvidos os projetos finais, utilizando tod
 - [VSCode](https://code.visualstudio.com/docs);
 - [Jupyter Notebook](https://docs.anaconda.com/);
 
+-----
 
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML);
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS);
@@ -84,6 +87,13 @@ Durante as Sprints 9 e 10 foram desenvolvidos os projetos finais, utilizando tod
 </div>
 
 ### Instrutores
+
+<div align="center">
+
+  [https://avatars.githubusercontent.com/u/64177704?v=4](https://github.com/anaeljonasgit) | [https://avatars.githubusercontent.com/u/76558798?v=4](https://github.com/daniel-compasso) | [https://avatars.githubusercontent.com/u/39570303?v=4](https://github.com/LucasLopes-S) | [https://avatars.githubusercontent.com/u/24260624?v=4](https://github.com/RenoirSampaio) | [https://avatars.githubusercontent.com/u/54381643?v=4](https://github.com/wagnerandersson) | [https://avatars.githubusercontent.com/u/15970264?v=4](https://github.com/wladneto)|
+  | :---: | :---: | :---: |:---: |
+
+</div>
 
 ## Licença
 
