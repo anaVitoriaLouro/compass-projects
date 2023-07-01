@@ -30,7 +30,13 @@ Este repositório tem como objetivo centralizar todos os projetos desenvolvidos 
 
 ## Sobre a Compass.uol
 
-:construction:
+A [Compass.uol](https://compass.uol/pt/home/) é uma empresa líder no setor de tecnologia e inovação, dedicada a fornecer soluções avançadas para seus clientes. Como parceira no Programa de Bolsas de Machine Learning com AWS, a Compass.uol desempenhou um papel fundamental no desenvolvimento e sucesso do programa.
+
+Com uma equipe de especialistas altamente qualificados, a Compass.uol oferece conhecimentos abrangentes em várias áreas da tecnologia, incluindo computação em nuvem, aprendizado de máquina e muitos outros serviços da AWS. Sua experiência e compromisso com a excelência garantiram a realização eficaz e bem-sucedida dos projetos desenvolvidos pelas equipes de bolsistas.
+
+A parceria entre a Compass.uol, a UNIVESP e a AWS possibilitou um ambiente de aprendizado colaborativo e prático, proporcionando aos bolsistas a oportunidade de adquirir habilidades essenciais em Machine Learning e explorar o potencial da infraestrutura e serviços oferecidos pela AWS.
+
+A Compass.uol tem orgulho de apoiar o desenvolvimento de talentos na área de tecnologia e está comprometida em promover a inovação e o avanço nesse campo. Essa parceria reflete seu compromisso em impulsionar o conhecimento e impulsionar a transformação digital.
 
 ## Estrutura do Repositório
 
