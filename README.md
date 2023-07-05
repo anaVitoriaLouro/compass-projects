@@ -13,7 +13,6 @@ Este repositório tem como objetivo centralizar todos os projetos desenvolvidos 
   - [🚀 Dinâmica do programa](#como-funciona-o-programa)
   - [👩🏻‍💻 Execução](#execução)
   - [🔧 Ferramentas e tecnologias utilizadas](#ferramentas-e-tecnologias-utilizadas)
-- [✅ Conclusão](#conclusão)
 - [👥 Equipe](#equipe)
   - [👩🏻‍🎓 Desenvolvedores](#desenvolvedores)
   - [👨🏻‍🏫 Instrutores](#instrutores)
@@ -72,26 +71,64 @@ Durante as Sprints 9 e 10 foram desenvolvidos os projetos finais, utilizando tod
 - [Python](https://docs.python.org/3/);
 - [Tensorflow](https://www.tensorflow.org/api_docs);
 
-## Conclusão
-
+<br>
 
 ## Equipe
 
 ### Desenvolvedores
+ [<img src="https://avatars.githubusercontent.com/u/97908745?v=4" width=115><br><sub>Ana Vitória Navili</sub>](https://github.com/anaVitoriaLouro)  | [<img src="https://avatars.githubusercontent.com/u/81330043?v=4" width=115><br><sub>Bernardo Lima</sub>](https://github.com/belima93) | [<img src="https://avatars.githubusercontent.com/u/25699466?v=4" width=115><br><sub>Bruno Perillo</sub>](https://github.com/brunoperillo) | [<img src="https://avatars.githubusercontent.com/u/78061851?v=4" width=115><br><sub>Carlos Camilo</sub>](https://github.com/crobertocamilo) | [<img src="https://avatars.githubusercontent.com/u/96358027?v=4" width=115><br><sub>Diego Lopes</sub>](https://github.com/Diegox0301) | [<img src="https://avatars.githubusercontent.com/u/124359272?v=4" width=115><br><sub>Irati Maffra</sub>](https://github.com/IratiMaffra) | 
+| :---: | :---: | :---: | :---: | :---: | :---: | 
+[<img src="https://avatars.githubusercontent.com/u/88354075?v=4" width=115><br><sub>Kelly Patricia Silva</sub>](https://github.com/KellyPLSilva) | [<img src="https://avatars.githubusercontent.com/u/87142990?v=4" width=115><br><sub>Luciene Godoy</sub>](https://github.com/LucieneGodoy) | [<img src="https://avatars.githubusercontent.com/u/72028902?v=4" width=115><br><sub>Luiz Renato Sassi</sub>](https://github.com/luizrsassi) | [<img src="https://avatars.githubusercontent.com/u/73674662?v=4" width=115><br><sub>Marcos Nativo</sub>](https://github.com/onativo) | [<img src="https://avatars.githubusercontent.com/u/94749597?v=4" width=115><br><sub>O'Dhara Maggi</sub>](https://github.com/odharamaggi)| [<img src="https://avatars.githubusercontent.com/u/117780664?v=4" width=115><br><sub>Viviane Alves </sub>](https://github.com/Vivianes86)|
 
-<div align="center">
 
-  [https://avatars.githubusercontent.com/u/125395133?v=4](https://github.com/Adila02) | [<img src="https://avatars.githubusercontent.com/u/97908745?v=4" width=115><br><sub>Ana Vitória</sub>](https://github.com/anaVitoriaLouro) | [https://avatars.githubusercontent.com/u/112827096?v=4](https://github.com/Barbarahayd) | [https://avatars.githubusercontent.com/u/81330043?v=4](https://github.com/belima93) | [https://avatars.githubusercontent.com/u/25699466?v=4](https://github.com/brunoperillo) | [https://avatars.githubusercontent.com/u/78061851?v=4](https://github.com/crobertocamilo) | [https://avatars.githubusercontent.com/u/96358027?v=4](https://github.com/Diegox0301) | [https://avatars.githubusercontent.com/u/55400549?v=4](https://github.com/guilhermep77) | [https://avatars.githubusercontent.com/u/124359272?v=4](https://github.com/IratiMaffra) | [https://avatars.githubusercontent.com/u/88354075?v=4](https://github.com/KellyPLSilva) | [<img src="https://avatars.githubusercontent.com/u/87142990?v=4" width=115><br><sub>Luciene Godoy</sub>](https://github.com/LucieneGodoy) |  [<img src="https://avatars.githubusercontent.com/u/72028902?v=4" width=115><br><sub>Luiz Sassi</sub>](https://github.com/luizrsassi) | [https://avatars.githubusercontent.com/u/95102771?v=4](https://github.com/Marcos-Zaparoli) | [https://avatars.githubusercontent.com/u/35769020?v=4](https://github.com/ml-brunelli) | [https://avatars.githubusercontent.com/u/94749597?v=4](https://github.com/odharamaggi) | [<img src="https://avatars.githubusercontent.com/u/73674662?v=4" width=115><br><sub>Marcos Vinicios</sub>](https://github.com/onativo) | [https://avatars.githubusercontent.com/u/97359269?v=4](https://github.com/OseasMonteiro) | [https://avatars.githubusercontent.com/u/117780664?v=4](https://github.com/Vivianes86)|
-  | :---: | :---: | :---: |:---: |
 
-</div>
+<table>
+  <tr>
+    <th colspan="4" style="text-align: left;"><h2>Instrutores</h2></th>
+    <th><h2>Scrum master</h2></th>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/daniel-compasso"><img src="https://avatars.githubusercontent.com/u/76558798?v=4" width="115"><br><sub>Daniel Nehme Muller</sub>
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/wagnerandersson"><img src="https://avatars.githubusercontent.com/u/54381643?v=4" width="115"><br><sub>Wagner Del Fiol Andersson</sub>
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/RenoirSampaio"><img src="https://avatars.githubusercontent.com/u/24260624?v=4" width="115"><br><sub>Pedro Renoir Sampaio</sub>
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/wladneto"><img src="https://avatars.githubusercontent.com/u/15970264?v=4" width="115"><br><sub>Wladimir Teixeira Neto</sub>
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/anaeljonasgit"><img src="https://avatars.githubusercontent.com/u/64177704?v=4" width="115"><br><sub>Anael Jonas Alencar Andrade</sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
-### Instrutores
 
-<div align="center">
 
-  [https://avatars.githubusercontent.com/u/64177704?v=4](https://github.com/anaeljonasgit) | [https://avatars.githubusercontent.com/u/76558798?v=4](https://github.com/daniel-compasso) | [https://avatars.githubusercontent.com/u/39570303?v=4](https://github.com/LucasLopes-S) | [https://avatars.githubusercontent.com/u/24260624?v=4](https://github.com/RenoirSampaio) | [https://avatars.githubusercontent.com/u/54381643?v=4](https://github.com/wagnerandersson) | [https://avatars.githubusercontent.com/u/15970264?v=4](https://github.com/wladneto)|
-  | :---: | :---: | :---: |:---: |
+<!-- 
+## Advisors/Product Owners                                                                                          Scrum master 
+|<img src="https://avatars.githubusercontent.com/u/76558798?v=4" width=115> | <img src="https://avatars.githubusercontent.com/u/54381643?v=4" width=115> | <img src="https://avatars.githubusercontent.com/u/24260624?v=4" width=115> | <img src="https://avatars.githubusercontent.com/u/15970264?v=4" width=115> | <img src="https://avatars.githubusercontent.com/u/64177704?v=4" width=115>
+|:----------------:|:----------------:|:----------------:|:----------------:|:----------------:|
+| Daniel Nehme Muller| Wagner Del Fiol Andersson | Pedro RenoirSampaio | Wladimir Teixeira Neto | Anael Jonas Alencar Andrade |
+
+
+## Scrum master
+[<img src="https://avatars.githubusercontent.com/u/64177704?v=4" width=115><br><sub>Anael Jonas Alencar Andrade</sub>](https://github.com/anaeljonasgit)  | 
+| :---: |
+
+
+## Advisors/Product Owners
+[<img src="https://avatars.githubusercontent.com/u/76558798?v=4" width=115><br><sub>Daniel Nehme Muller</sub>](https://github.com/daniel-compasso) | [<img src="https://avatars.githubusercontent.com/u/54381643?v=4" width=115><br><sub>Wagner Del Fiol Andersson</sub>](https://github.com/wagnerandersson) | [<img src="https://avatars.githubusercontent.com/u/24260624?v=4" width=115><br><sub>Pedro RenoirSampaio</sub>](https://github.com/RenoirSampaio) | [<img src="https://avatars.githubusercontent.com/u/15970264?v=4" width=115><br><sub>Wladimir Teixeira Neto</sub>](https://github.com/wladneto) |
+| :---: | :---: | :---: | :---: |
+
 
 </div>
 
