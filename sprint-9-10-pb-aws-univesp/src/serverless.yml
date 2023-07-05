@@ -1,0 +1,27 @@
+service: bot-alfabet
+frameworkVersion: "3"
+
+provider:
+  name: aws
+  runtime: python3.9
+  iam:
+    role:
+      statements:
+        - Effect: Allow
+          Action:
+            - lex:RecognizeText
+            - s3:*
+            - transcribe:*
+            - rekognition:DetectText
+          Resource:
+            - "*"
+
+functions:
+  Orchestrator:
+    handler: handler.lambda_handler
+    events:
+      - http:
+          path: /message
+          method: POST
+    layers:
+      - arn:aws:lambda:us-east-1:247163668667:layer:twilioPython:1
